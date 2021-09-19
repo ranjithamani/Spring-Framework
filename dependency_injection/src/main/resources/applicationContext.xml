@@ -19,7 +19,7 @@
 	</bean>
 
 	<bean class="com.xworkz.fruit.Fruit" id="fruit">
-		<constructor-arg name="name" value="Apple" />
+		<constructor-arg name="name" value="Apple"/>
 		<constructor-arg name="color" value="Red" />
 		<constructor-arg name="price" value="250" />
 		<constructor-arg name="taste" value="true" />
@@ -31,5 +31,6 @@
 		<constructor-arg name="waterSoluble" value="true" />
 		<constructor-arg name="fatSoluble" value="true" />
 	</bean>
+	
 
 </beans>

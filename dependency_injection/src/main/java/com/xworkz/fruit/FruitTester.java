@@ -20,7 +20,7 @@ public class FruitTester {
         System.out.println(fruit.vitamin.type);
 		System.out.println(fruit.vitamin.waterSoluble);
 		System.out.println(fruit.vitamin.fatSoluble);
-		fruit.provideEnergy();;
+		fruit.provideEnergy();
 	}
 
 }
