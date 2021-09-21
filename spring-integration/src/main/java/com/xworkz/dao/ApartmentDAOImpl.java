@@ -12,17 +12,17 @@ import com.xworkz.apartment.ApartmentEntity;
 public class ApartmentDAOImpl implements ApartmentDAO {
 
 	@Autowired
-	private SessionFactory factory;
+	private SessionFactory sessionFactory;
 
-	public ApartmentDAOImpl(SessionFactory sessionFactory) {
-		this.factory = sessionFactory;
+	public ApartmentDAOImpl() {
+		super();
 		System.out.println(this.getClass().getSimpleName() + "bean created");
 	}
 
 	@Override
 	public void save(ApartmentEntity entity) {
 
-		try (Session session = factory.openSession()) {
+		try (Session session = sessionFactory.openSession()) {
 			Transaction trans = session.beginTransaction();
 			session.save(entity);
 			session.flush();
