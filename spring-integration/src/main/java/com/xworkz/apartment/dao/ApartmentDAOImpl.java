@@ -1,4 +1,4 @@
-package com.xworkz.dao;
+package com.xworkz.apartment.dao;
 
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;

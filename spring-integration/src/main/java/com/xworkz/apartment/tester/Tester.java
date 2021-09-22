@@ -4,7 +4,7 @@ import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 import com.xworkz.apartment.ApartmentEntity;
-import com.xworkz.dao.ApartmentDAO;
+import com.xworkz.apartment.dao.ApartmentDAO;
 
 public class Tester {
 

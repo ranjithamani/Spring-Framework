@@ -1,4 +1,4 @@
-package com.xworkz.dao;
+package com.xworkz.apartment.dao;
 
 import com.xworkz.apartment.ApartmentEntity;
 
